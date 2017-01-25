@@ -1,4 +1,4 @@
-FROM		yjshi/jmeter_docker
+FROM		yjshi/jmeter
 
 ENV		JMETER_HOME	/opt/jmeter
 RUN		mkdir -p ${JMETER_HOME}
