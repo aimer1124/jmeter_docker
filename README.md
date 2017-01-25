@@ -25,10 +25,9 @@ docker run --rm -v $(pwd):/root performanceDocker bin/jmeter -n -t Demo.jmx
 Writing log file to: /opt/jmeter/jmeter.log
 Creating summariser <summary>
 Created the tree successfully using Demo.jmx
-Starting the test @ Tue Jan 24 03:37:44 UTC 2017 (1485229064594)
+Starting the test @ Wed Jan 25 02:16:12 UTC 2017 (1485310572802)
 Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
-summary +      1 in 00:00:20 =    0.0/s Avg: 20112 Min: 20112 Max: 20112 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
-summary =      1 in 00:00:20 =    0.0/s Avg: 20112 Min: 20112 Max: 20112 Err:     1 (100.00%)
-Tidying up ...    @ Tue Jan 24 03:38:04 UTC 2017 (1485229084963)
+summary =      1 in 00:00:01 =    1.2/s Avg:   619 Min:   619 Max:   619 Err:     0 (0.00%)
+Tidying up ...    @ Wed Jan 25 02:16:13 UTC 2017 (1485310573711)
 ... end of run
 ```
